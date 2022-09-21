@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {},
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["Components", "./src/components/"],
+          ["Data", "./src/data/"],
+          ["Pages", "./src/pages/"]
+        ],
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    }
+  }
+}
