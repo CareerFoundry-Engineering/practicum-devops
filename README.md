@@ -19,7 +19,7 @@
 
 CareerFoundry wants to move from its highly coupled architecture to one more abstract. As our product grows fast, we must ensure that our platform scales appropriately.
 The current structure of the platform is a Ruby on Rails[v6.0, v3.0] which provides a frontend using React and is connected to a Postgresql DB.
-Your team fellows of the platform team, backend engineer, and frontend engineer are working separately on the API Gateway(using a pure rails API and a PostgreSQL DB), frontend(using react)
+Your fellows of the platform team, backend engineer, and frontend engineer are working separately on the API Gateway(using a pure rails API and a PostgreSQL DB), frontend(using react)
 And they have created a collaborative monorepo. 
 
 - What will be the git branching strategy? Elaborate why & why not with pros and cons
