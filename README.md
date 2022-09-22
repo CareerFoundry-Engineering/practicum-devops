@@ -14,7 +14,7 @@
 
 ### Challenge
 
-Your fellows of the platform team, backend engineer, and frontend engineer are working separately on the a ruby api(with a PostgreSQL DB), frontend(using react) and they have created a collaborative monorepo.
+Your fellows of the platform team, backend engineer, and frontend engineer are working separately on a RoR API(with a PostgreSQL DB), frontend(using react) and they have created a collaborative monorepo.
 
 - Create the infrastructure for this project using IaC
     - remember: You are free to use the programming language, tools, and cloud platform of your choice.
