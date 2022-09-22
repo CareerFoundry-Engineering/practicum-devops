@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(version: 2022_09_22_160210) do
     t.string "ocupation"
     t.string "email"
     t.string "bio"
+    t.string "avatar_url"
     t.uuid "uuid", default: -> { "gen_random_uuid()" }
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -7,6 +7,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.string :ocupation
       t.string :email
       t.string :bio
+      t.string :avatar_url
       t.uuid :uuid, default: "gen_random_uuid()"
 
       t.timestamps

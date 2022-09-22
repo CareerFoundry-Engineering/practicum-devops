@@ -11,13 +11,12 @@ require 'faker'
 
 unless User.count > 0
   25.times do
-    downloaded_image = URI.parse(Faker::Avatar.unique.image).open
-    user  = User.create({
+    User.create({
       name: Faker::Name.name_with_middle,
       ocupation: Faker::Job.title,
       email: Faker::Internet.free_email,
-      bio: Faker::Games::WorldOfWarcraft.quote
+      bio: Faker::Games::WorldOfWarcraft.quote,
+      avatar_url: Faker::Avatar.unique.image
     })
-    user.avatar.attach(io: downloaded_image, filename: "#{user.uuid}-avatar.jpg")
   end
 end
