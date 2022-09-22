@@ -4,7 +4,7 @@
 - Complete the challenge within five days, mention time spent in hours explicitly taken for solving the challenge
 - Your solution should be clean, readable, maintainable, and implemented with an emphasis on DevOps methodologies.
 - You are free to use the programming language, tools, and cloud platform of your choice.
-- Provide a description, execution steps, and testing steps in a plain text file (EXECUTION-STEPS.txt)
+- Provide a description, execution steps, and testing steps in a plain text file (EXECUTION-STEPS.md)
 - We are not looking for completion or perfection, we expect trade-offs to happen.
 - Submit all the codebase, diagrams, and documents
 - Bonus points: For the solutions built with a best security practice
