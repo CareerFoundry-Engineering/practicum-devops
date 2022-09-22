@@ -1,0 +1,52 @@
+inherit_from: .rubocop_todo.yml
+
+require: [rubocop-performance, rubocop-rspec]
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 2.7
+  Include:
+    - app/**/*.rb
+    - spec/**/*.rb
+    - Rakefile
+    - config.ru
+    - lib/**/*.rake
+  Exclude:
+    - db/schema.rb
+    - "**/node_modules/**/*"
+    - "db/seeds.rb"
+    - "db/seeds/**/*"
+    - "db/migrate/**/*"
+    - "vendor/bundle/**/*"
+    - "bin/**"
+  UseCache: true
+
+Metrics/BlockLength:
+  IgnoredMethods: ["describe", "context"]
+RSpec/BeforeAfterAll:
+  Enabled: false
+RSpec/NestedGroups:
+  Max: 10
+Lint/RaiseException:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+Style/ExponentialNotation:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: true
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+Style/AndOr:
+  EnforcedStyle: conditionals
