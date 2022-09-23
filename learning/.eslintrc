@@ -21,6 +21,7 @@
       "alias": {
         "map": [
           ["Components", "./src/components/"],
+          ["Actions", "./src/actions/"],
           ["Data", "./src/data/"],
           ["Pages", "./src/pages/"]
         ],

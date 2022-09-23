@@ -1,11 +1,18 @@
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { Outlet } from 'react-router-dom';
+import Navigation from 'Components/Navigation';
 
 function Layout({ children }) {
   return (
-    <div className="grid grid-cols-1 gap-6 lg:p-10 xl:grid-cols-4 lg:bg-base-200 rounded-box">
-      {children}
+    <div className="w-full h-screen p-8 bg-base-100">
+      <div className="w-full h-full my-4">
+        <Navigation />
+        <br />
+        <div className="my-4">
+          {children}
+        </div>
+      </div>
     </div>
   );
 }
