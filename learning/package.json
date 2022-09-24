@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "develop": "API_GATEWAY_URL='http://localhost:3000/' webpack-dev-server --open",
+    "develop": "export NODE_ENV=development API_GATEWAY_URL='http://localhost:3000/' webpack-dev-server --open",
     "build": "export NODE_ENV=production API_GATEWAY_URL='http://localhost:3000/' && webpack",
     "deploy": "npm run build",
     "lint": "eslint . --color",
