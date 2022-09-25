@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const ROOT_URL = 'http://localhost:3000';
+export const ROOT_URL = process.env.API_URL;
 export const FETCH_ALL_USERS = 'FETCH_ALL_USERS';
 
 export function fetchAllUsers() {
