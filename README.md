@@ -1,5 +1,5 @@
 ### Rules
-- Clone this repo and create your branch for implementing the solution and upon completion, push the Branch to remote.
+- Fork/clone this repo and create your branch for implementing the solution and upon completion upload to github.
 - Complete the challenge within 4 hours, mention time spent in hours explicitly taken for solving the challenge
 - Your solution should be clean, readable, maintainable, and implemented with an emphasis on DevOps methodologies.
 - You are free to use the programming language, tools, and cloud platform of your choice.
