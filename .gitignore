@@ -1,0 +1,22 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Local .terraform directories
+**/.terragrunt-cache
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+.idea/
+.vagrant/
+Vagrantfile
+untitled*
+.DS_STORE
+.tool-versions
+node_modules/
+
+tmp/
